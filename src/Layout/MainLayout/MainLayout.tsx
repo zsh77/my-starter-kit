@@ -1,9 +1,12 @@
 import React from "react";
-import styles from "./MainLayout.module.css";
 
 const MainLayout = (props) => {
   const { children } = props;
-  return <div className={styles.main}>{children}</div>;
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center">
+      {children}
+    </div>
+  );
 };
 
 export default MainLayout;

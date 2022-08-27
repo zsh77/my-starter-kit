@@ -2,7 +2,7 @@ import type { ChangeEvent } from "react";
 import { useEffect, useRef } from "react";
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 
-import type { AppDispatch, AppState } from "../Redux/store";
+import type { AppDispatch, AppState } from "../Redux/Store";
 
 export const useForm =
   <TContent>(defaultValues: TContent) =>

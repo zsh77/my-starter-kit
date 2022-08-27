@@ -8,8 +8,8 @@ import {
   incrementAsync,
   incrementIfOdd,
   selectCount,
-} from "./counterSlice";
-import styles from "./Counter.module.css";
+} from "../../Redux/CounterSlice";
+import styles from "./Counter.module.scss";
 
 function Counter() {
   const dispatch = useAppDispatch();

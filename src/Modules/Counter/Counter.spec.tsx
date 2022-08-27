@@ -9,7 +9,7 @@ jest.mock("./counterAPI", () => ({
     ),
 }));
 
-import { makeStore } from "../../Redux/store";
+import { makeStore } from "../../Redux/Store";
 import Counter from "./Counter";
 
 describe("<Counter />", () => {

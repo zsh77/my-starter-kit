@@ -13,6 +13,7 @@ const IndexPage: NextPage = () => {
       </Head>
       <MainLayout>
         <Counter />
+        <div className="text-red-400">aaaa</div>
       </MainLayout>
     </div>
   );
