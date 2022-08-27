@@ -1,7 +1,15 @@
-import React from "react";
+import React from 'react'
 
-const Button = () => {
-  return <div>Button</div>;
-};
+interface ButtonProps {
+  primary?: boolean
+  backgroundColor?: string
+  size?: 'small' | 'medium' | 'large'
+  label: string
+  onClick?: () => void
+}
 
-export default Button;
+const Button = (props: ButtonProps) => {
+  return <div>Button</div>
+}
+
+export default Button
