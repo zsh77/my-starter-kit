@@ -1,16 +1,12 @@
-# Redux Toolkit TypeScript Example
-
-This is a starter kit of a Next.js application with Redux Toolkit, .
-
-The **Redux Toolkit** is a standardized way to write Redux logic (create actions and reducers, setup the store with some default middlewares like redux devtools extension). This example demonstrates each of these features with Next.js
-
 # Next.js Starter Kit
 
-Boilerplate to quickly get up and running with Next.js with
+This is a starter kit to quickly get up and running, made with Next.js and
 
+- **Redux toolkit**
 - **Tailwind CSS**
 - **SCSS**
 - **Typescript**
+- **Storybook**
 - **Prettier**
 
 ## Getting Started
